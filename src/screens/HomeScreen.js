@@ -21,6 +21,7 @@ const HomeScreen = () => {
 
   return (
     <div>
+      <div className='history'><Link to="/history"><button>History</button></Link></div>
       <Link to="/add-timer"><button>Add Timer</button></Link>
       <ul>
         {runningTimers.map((timer, index) => (

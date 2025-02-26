@@ -57,7 +57,6 @@ li {
   align-items: center;
 }
 
-/* Applying styles to App Components */
 .home-screen, .add-timer-screen, .history-screen {
   display: flex;
   flex-direction: column;
@@ -70,4 +69,9 @@ li {
 
 .history-screen li {
   background: #d4edda;
+}
+
+.history{
+  float: right;
+  margin-left: 1rem;
 }
